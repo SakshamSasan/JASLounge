@@ -1,0 +1,78 @@
+#App{
+  min-height:100vh;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar {
+  color: white;
+}
+.navbar-brand>div {
+  display: inline-block;
+}
+.nav-item{
+  padding-left: 0.7rem;
+}
+
+#option-line{
+  width:100%;
+}
+
+.w-80 {
+  width:80%
+}
+
+.w-adjust{
+  box-sizing: border-box;
+  display: block;
+  width:100%
+}
+
+@media screen and (min-width:768px) {
+  .w-50-md{
+    width:50%;
+  }
+  .input-length{
+    width:35%;
+  }
+
+ #option-line {
+   width:80%;
+ }
+}
+@media screen and (min-width:992px){
+  #navbarSupportedContent{
+    position: relative;
+  }
+ .nav-item div {
+   display: inline-block;
+   position: absolute;
+   right:3%
+ }
+ .nav-item button {
+   display:inline-block;
+   position:absolute;
+   right:20%;
+ }
+}
+a {
+  text-decoration: none;
+  color:green
+}
+@media screen and (min-width:992px) and (orientation:portrait){
+  #App{
+    height: 100vh;
+  }
+}

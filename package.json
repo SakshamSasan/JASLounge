@@ -1,0 +1,21 @@
+{
+  "name": "jasmusic1",
+  "version": "1.0.0",
+  "description": "parent folder of front end and backend",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Saksham Sasan",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  },
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "dotenv": "^16.0.3"
+  }
+}

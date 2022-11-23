@@ -1,0 +1,111 @@
+
+.body {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height:auto;
+    width:100vw;
+    background-image: linear-gradient(0deg,rgba(190,223,255,1) ,rgba(0,0,0,1));
+}
+.top_artists_wrapper{
+    width:30%;
+    height:auto;
+    flex-shrink:1;
+}
+.top_artists {
+    width:100%;
+    height:0;
+    padding-bottom: 115%;
+}
+div.top_artists_wrapper:hover {
+    transition: 0.3s ease-in-out;
+    width:35%;
+    box-shadow: 0px 0px 18px white;
+}
+.center_image {
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+.honey{
+    background-image:url('../assets/Honey%20Singh.jpg');
+    background-position: top;
+}
+.drake{
+    background-image:url('../assets/Drake.jpg');
+    background-position: top;
+}
+.ap{
+    background-image:url('../assets/AP%20Dhillon.jpg');
+    background-position: center;
+}
+.shinny{
+    background-image:url('../assets/Shav%20&%20Vinny.jpg');
+    background-position: center;
+}
+.byoung{
+    background-image:url('../assets/B%20Young.jpg');
+    background-position: center;
+}
+.diljit{
+    background-image:url('../assets/Diljit.jpg');
+    background-position: center;
+}
+.imran{
+    background-image:url('../assets/Imran%20Khan.jpg');
+    background-position: center;
+}
+.prophec{
+    background-image:url('../assets/PropheC.jpg');
+    background-position: center;
+}
+.weeknd{
+    background-image:url('../assets/Weeknd.jpg');
+    background-position: center;
+}
+.opa>div{
+    width:15%;
+    height:auto;
+    border-radius: 50%;
+    margin:0 1.5px 0 1.5px;
+}
+.opa>div>div{
+    position: relative;
+    width:100%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    background-position: center;
+    background-image: url('../assets/play.png');
+    background-size: 50% 50% !important;
+    z-index:2;
+}
+.opa>div>div>div {
+    width:100%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    position: relative;
+    z-index:3
+}
+.opa>div>div>div:hover{
+    z-index: 0;
+    opacity: 0.2;
+    transition: 0.2s ease-in-out;
+}
+
+.body2 {
+    
+    padding-bottom: 5rem;
+    height:auto;
+    width:100vw;
+    background-image: linear-gradient(180deg,rgba(190,223,255,1) ,rgba(0,0,0,1));
+}
+.img_fit{
+    margin: auto;
+    width:100%;
+    height:0;
+    padding-bottom: 120%;
+    background-size: cover;
+    /* background-image: url(../assets/byoung.jpg); */
+}

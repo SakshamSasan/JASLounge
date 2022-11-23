@@ -1,0 +1,33 @@
+.list_container {
+    height:auto;
+    max-height:41rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+.list_container::-webkit-scrollbar { 
+    height: 0;
+}
+.list_container>div {
+    height:5rem;
+    background-color: rgba(0, 0, 0,0.5);
+    box-sizing: border-box;
+}
+.icon {
+    color:rgba(255,255,255,1);
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+.img_fit{
+    display: block;
+    flex-shrink:1;
+    flex-grow:1;
+    width:100%;
+    min-height: 70%;
+    max-height:80%;
+    object-fit:cover;
+    /* background-size: cover;
+    background-position: top; */
+}

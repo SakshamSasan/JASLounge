@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae94e106.css",
+    "main.js": "/static/js/main.26892952.js",
+    "static/js/787.dc4ed52b.chunk.js": "/static/js/787.dc4ed52b.chunk.js",
+    "static/media/Diljit.jpg": "/static/media/Diljit.c585dbc6df15e47809ad.jpg",
+    "static/media/Drake.jpg": "/static/media/Drake.4eb5bb08ab0f16087729.jpg",
+    "static/media/Honey Singh.jpg": "/static/media/Honey Singh.5cb15b61f242a50f3b20.jpg",
+    "static/media/logo.png": "/static/media/logo.afed7ebef305824633dd.png",
+    "static/media/Shav & Vinny.jpg": "/static/media/Shav & Vinny.4c78c383f10f451f009e.jpg",
+    "static/media/AP Dhillon.jpg": "/static/media/AP Dhillon.5af651fb37471fffd6f6.jpg",
+    "static/media/Imran Khan.jpg": "/static/media/Imran Khan.53a147a26fc2bc32a6cb.jpg",
+    "static/media/B Young.jpg": "/static/media/B Young.36919ddd34e2bf658c5a.jpg",
+    "static/media/Weeknd.jpg": "/static/media/Weeknd.5c4751fe2f25f3b4a0c1.jpg",
+    "static/media/PropheC.jpg": "/static/media/PropheC.689c365a1eb6478438aa.jpg",
+    "static/media/yess.png": "/static/media/yess.7eb1c61f468ef0131793.png",
+    "index.html": "/index.html",
+    "main.ae94e106.css.map": "/static/css/main.ae94e106.css.map",
+    "main.26892952.js.map": "/static/js/main.26892952.js.map",
+    "787.dc4ed52b.chunk.js.map": "/static/js/787.dc4ed52b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae94e106.css",
+    "static/js/main.26892952.js"
+  ]
+}

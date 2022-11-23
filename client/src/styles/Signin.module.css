@@ -1,0 +1,30 @@
+.heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.googlepill {
+    display: inline-block;
+    padding: 1rem 2rem 1rem 2rem;
+    border-color: black !important;
+    border-width: 2.5px !important;
+    font-weight: bold;
+    color:rgba(0,0,0,0.6)
+}
+.icon {
+    vertical-align:text-bottom;
+    display: inline-block;
+    height:1.22rem;
+    width:1.2rem;
+    background-image: url('../assets/google.jpeg');
+    background-size:cover ;
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+
+.line {
+    width:30%;
+    height:0;
+    display: inline-block;
+    border: solid 1px black;
+}
